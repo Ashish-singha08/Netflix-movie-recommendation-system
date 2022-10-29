@@ -1,8 +1,11 @@
 # Streamlit-based Recommender System
 ###Project Summary
-This project was focused on Building a streamlit-based Apllication
-
-
+This project was focused on Building a Streamlit-based recommender system for Netflix which predict if a user will like a movie or not and how user would rate such movie l.e user's Preference and user's rating 
+- wrangled on the dataet
+- Carried out Exploratory data Analysis on the data-set to ge more insight
+- Engineered features to appropriate format
+- Built a content based and Collaborative based filtering algorithm that is capable of predicting user prefence and rating for a movie 
+- Deployed using streamlit  
 
 ### Data Set
 This dataset consists of several million 5-star ratings obtained from users of the online MovieLens movie recommendation service.For this Predict, we used a special version of the MovieLens dataset which has enriched with additional data, and resampled for fair evaluation purposes.
@@ -17,6 +20,7 @@ tags.csv - User assigned for the movies within the dataset.
 test.csv - The test split of the dataset. Contains user and movie IDs with no rating data.
 train.csv - The training split of the dataset. Contains user and movie IDs with associated rating data
 
+### Exploratory Data Analysis
 
 
 
