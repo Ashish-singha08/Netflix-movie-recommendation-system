@@ -1,3 +1,4 @@
+![Movie_Recommendations](resources/imgs/Image_header.png)
 # Streamlit-based Recommender System
 ###Project Summary
 This project was focused on Building a Streamlit-based recommender system for Netflix which predict if a user will like a movie or not and how user would rate such movie l.e user's Preference and user's rating 
@@ -9,19 +10,21 @@ This project was focused on Building a Streamlit-based recommender system for Ne
 
 ### Data Set
 This dataset consists of several million 5-star ratings obtained from users of the online MovieLens movie recommendation service.For this Predict, we used a special version of the MovieLens dataset which has enriched with additional data, and resampled for fair evaluation purposes.
-The data for the MovieLens dataset is maintained by the GroupLens research group in the Department of Computer Science and Engineering at the University of Minnesota. Additional movie content data was legally scraped from IMDB
-Supplied Files
-genome_scores.csv - a score mapping the strength between movies and tag-related properties. Read more here
-genome_tags.csv - user assigned tags for genome-related scores
-imdb_data.csv - Additional movie metadata scraped from IMDB using the links.csv file.
-links.csv - File providing a mapping between a MovieLens ID and associated IMDB and TMDB IDs.
-sample_submission.csv - Sample of the submission format for the hackathon.
-tags.csv - User assigned for the movies within the dataset.
-test.csv - The test split of the dataset. Contains user and movie IDs with no rating data.
-train.csv - The training split of the dataset. Contains user and movie IDs with associated rating data
+The data for the MovieLens dataset is maintained by the GroupLens research group in the Department of Computer Science and Engineering at the University of Minnesota. Additional movie content data was legally scraped from IMDB. \
+Supplied Files \
+- genome_scores.csv - a score mapping the strength between movies and tag-related properties. \
+- genome_tags.csv - user assigned tags for genome-related scores \
+- imdb_data.csv - Additional movie metadata scraped from IMDB using the links. \
+- links.csv - File providing a mapping between a MovieLens ID and associated IMDB and TMDB IDs. \
+- sample_submission.csv - Sample of the submission format for the hackathon. \
+- tags.csv - User assigned for the movies within the dataset. \
+- test.csv - The test split of the dataset. Contains user and movie IDs with no rating data. \
+- train.csv - The training split of the dataset. Contains user and movie IDs with associated rating data \
 
-### Exploratory Data Analysis
-
+### Exploratory Data Analysis 
+![](images/6.1.png) \
+The picture above shows the average rating in the dataset. we can see that high percentage movie viewers tend to rate movies high. The mean average rating for all the movies is 3.5 while the modal rating(most frequently occuring) rating is 4.0. \
+![](images/7.1.png)
 
 
 
