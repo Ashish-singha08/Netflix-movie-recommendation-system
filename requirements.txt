@@ -1,6 +1,3 @@
-scikit-learn
-numpy
+scikit-learny
 streamlit
-os_sys
-heapq_max
-pickle-mixin
+
