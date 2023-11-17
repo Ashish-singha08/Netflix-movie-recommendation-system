@@ -35,13 +35,13 @@ import numpy as np
 from utils.data_loader import load_movie_titles
 from recommenders.collaborative_based import collab_model
 from recommenders.content_based import content_model
-
+#st.set_option('server.port', 8080)
 # Data Loading
 title_list = load_movie_titles('resources/data/movies.csv')
 
 # App declaration
 def main():
-
+    
     # DO NOT REMOVE the 'Recommender System' option below, however,
     # you are welcome to add more options to enrich your app.
     page_options = ["Recommender System","Solution Overview", "Movies EDA", "About Sigma AI"]
