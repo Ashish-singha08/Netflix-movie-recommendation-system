@@ -31,7 +31,7 @@ jobs:
         file: ./Dockerfile
         push: true
         tags: ashishsinghal780/nmrs:latest
- deploy:
+  deploy:
     permissions:
       contents: none
     runs-on: ubuntu-latest
