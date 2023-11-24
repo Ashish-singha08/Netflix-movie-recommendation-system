@@ -63,6 +63,6 @@ Below is a high-level description of the contents within this repo:
 
 ## 2) Workflow
 
-(resources/imgs/mlflow.drawio.png)
+![Workflow](resources/imgs/mlflow.drawio.png)
 
 
