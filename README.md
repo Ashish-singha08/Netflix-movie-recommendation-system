@@ -21,20 +21,8 @@ Supplied Files
 - test.csv - The test split of the dataset. Contains user and movie IDs with no rating data. 
 - train.csv - The training split of the dataset. Contains user and movie IDs with associated rating data 
 
-### Exploratory Data Analysis
-Here are some examples of analysis that was gotten from the data, check the notebook for more \
-![](images/6.1.png) \
-The picture above shows the average rating in the dataset. we can see that high percentage movie viewers tend to rate movies high. The mean average rating for all the movies is 3.5 while the modal rating(most frequently occuring) rating is 4.0. \
-![](images/9.png)
-This shows that users tend to rate Movie that are purely drama in nature, followed by comedy while they least rate movies with Imax genres. Therefore there is an high chance that a user would like a movie which is pure drama drama compared to musical movies.
-![](images/7.png)
-This shows the total amount of movies produced per year
-![](image/8.png)
-This shows the ten top most rated movies 
-
 ### Model Building And Deployment  
-Built a content based and collaborative based filtering algothm using Success module whic was quite easy compared to the conventional way and deloyed it on streamlit for acesibility 
-
+The model was used in the streamlit which was containerzied using docker and deployed to Azure app service.
 
 
 
@@ -46,7 +34,7 @@ Built a content based and collaborative based filtering algothm using Success mo
 
 This repository is forked from [Repo](https://github.com/oibude/Netflix-movie-recommendation-system).
 
-This is an extension to the above project where i have containerize the streamlit app into a docker container and later deployed it to azure app service by using a CI-CD pipeline in github action.
+This is an extension to the above project where we have containerize the streamlit app into a docker container and later deployed it to azure app service by using a CI-CD pipeline in github action.
 
 #### 1.1) What is a Recommender System?
 
@@ -75,6 +63,6 @@ Below is a high-level description of the contents within this repo:
 
 ## 2) Workflow
 
-
+(resources/imgs/mlflow.drawio.png)
 
 
